@@ -1,0 +1,34 @@
+.productForm {
+    display: flex;
+    flex-direction: column;
+}
+
+.productForm div {
+    margin-bottom: 10px;
+}
+
+.formActions {
+    display: flex;
+    justify-content: space-between;
+}
+
+.saveButton, .cancelButton {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.saveButton:hover {
+    background-color: #45a049;
+}
+
+.cancelButton {
+    background-color: #f44336;
+}
+
+.cancelButton:hover {
+    background-color: #d32f2f;
+}
